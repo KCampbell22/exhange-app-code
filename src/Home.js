@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CurrencyTable from "./CurrencyTable";
-import { Line } from "react-chartjs-2";
 import currencyList from "./Currencies";
 // import dropdwon icon from icons folder /Users/kadecampbell/currency-app/public/icons/dropdown-2-48.png
-import dropdown from "./images/dropdown-2-48.png";
 
 const API_URL = "https://www.frankfurter.app/latest";
 
